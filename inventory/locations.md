@@ -5,7 +5,7 @@
 
 |#| field_name | type | p_key | n_null | link_table |
 |-|---|---|:---:|:---:|---|
-|1| block_id     | STRING |*|*| blockchain |
+|1| block_id     | STRING |*|*| [blockchain](/system/blockchain.md) |
 |2| date_created | DATE   | | |            | 
 |3| company_id | STRING   |*|*| company    | 
 |4| location_id | STRING   |* |* |  | 
