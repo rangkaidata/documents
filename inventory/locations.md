@@ -30,7 +30,6 @@
 * https://api.rangkaidata.com/locations/create
 
 ### JSON Request
-
 ```JSON
 {
   "company_id": "<STRING>",
@@ -41,7 +40,7 @@
   "location_type": "<INTEGER>"
 }
 ```
-## JSON Response
+### JSON Response
 
 ```JSON
 {
@@ -51,36 +50,105 @@
 ## <a name="read_paging">READ_PAGING
 
 ### Address
+* https://api.rangkaidata.com/locations/read_paging
+
 ### JSON Request
+```JSON
+{
+  "login_id": "<STRING>",
+  "company_id": "<STRING>",
+  "invite_id": "<STRING>",
+  "page": "<INTEGER>",
+  "limit": "<INTEGER>",
+  "filter": "<OBJECT>"
+}
+```
+
 ### JSON Response
 
 ## <a name="read_one">READ_ONE
 
 ### Address
+* https://api.rangkaidata.com/locations/read_one
+
 ### JSON Request
+```JSON
+{
+  "login_id": "<STRING>",
+  "company_id": "<STRING>",
+  "invite_id": "<STRING>",
+  "location_id": "<STRING>"
+}
+```
+
 ### JSON Response
 
 ## <a name="update">UPDATE
 
 ### Address
+* https://api.rangkaidata.com/locations/update
+
 ### JSON Request
+```JSON
+{
+  "company_id": "<STRING>",
+  "invite_id": "<STRING>",
+  "location_id": "<STRING>",
+  "location_name": "<STRING>",
+  "location_inactive": "<BOOLEAN>",
+  "location_type": "<INTEGER>"
+}
+```
+
 ### JSON Response
 
 ## <a name="delete">DELETE
 
 ### Address
+* https://api.rangkaidata.com/locations/delete
+
 ### JSON Request
+```JSON
+{
+  "login_id": "<STRING>",
+  "company_id": "<STRING>",
+  "invite_id": "<STRING>",
+  "location_id": "<STRING>"
+}
+```
+
 ### JSON Response
 
 ## <a name="search">SEARCH
 
 ### Address
+* https://api.rangkaidata.com/locations/search
+
 ### JSON Request
+```JSON
+{
+  "login_id": "<STRING>",
+  "company_id": "<STRING>",
+  "invite_id": "<STRING>",
+  "search": "<STRING>"
+}
+```
+
 ### JSON Response
 
 ## <a name="export">EXPORT
 
 ### Address
+* https://api.rangkaidata.com/locations/export
+
 ### JSON Request
+```JSON
+{
+  "login_id": "<STRING>",
+  "company_id": "<STRING>",
+  "invite_id": "<STRING>"
+}
+```
+
 ### JSON Response
 
