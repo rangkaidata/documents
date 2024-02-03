@@ -7,12 +7,13 @@ Lengkapnya API rangkaidata untuk modul `Accounting-Cloud`, mempermudah seorang p
 
 Berikut adalah modul lengkap dari Rangkaidata.com
 * System
-  * Blockchain
+  * [Blockchain](system/blockchain.md)
   * Defaults 
 * Company
 * Sales
 * Purchases
 * Inventory
+  * [Locations](inventory/locations.md)
 * Payroll
 * Jobs
 
